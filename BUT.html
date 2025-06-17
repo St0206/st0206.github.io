@@ -5,144 +5,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon BUT Réseaux et Télécommunications</title>
     <link rel="stylesheet" href="style.css">
+	  <style>
+      .project-images {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+      }
+
+      .project-images img {
+        width: 30%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .project-images img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+    
   </head>
   <body>
     <header>
-	<div class="info"> 
-      <h1>Stéphane Fandohan</h1>
-      <p>Étudiant en BUT Réseaux et Télécommunications (RT), je suis passionné par les réseaux et les télécoms. Mon objectif est de développer mes compétences en gestion des réseaux et systèmes télécoms pour contribuer à des projets innovants.</p>
-       <a href="mailto:jimmy.fandohan@uha.fr">jimmy.fandohan@uha.fr</a>
-      <p><a href="https://www.google.com/maps/place/7A rue des Bonnes Gens Colmar France" target="_blank">7A rue des Bonnes Gens Colmar France</a></p>
-	  </div>
-    </header>
-<section id="brevet">
-      <h2>Ma formation en BUT Réseaux et Télécommunications</h2>
-      <div class="institut-photo">
-       <div style="text-align:center">  <img src="images/iut.jpg" alt="Institut de l'Université de Haute-Alsace" style="width: 100%; max-width: 600px; border-radius: 10px;"></div>
+      <div class="info"> 
+        <h1>Stéphane Fandohan</h1>
+        <p>Étudiant en BUT Réseaux et Télécommunications (RT), je suis passionné par les réseaux et les télécoms. Mon objectif est de développer mes compétences en gestion des réseaux et systèmes télécoms pour contribuer à des projets innovants.</p>
+        <a href="mailto:jimmy.fandohan@uha.fr">jimmy.fandohan@uha.fr</a>
+        <p><a href="https://www.google.com/maps/place/7A rue des Bonnes Gens Colmar France" target="_blank">7A rue des Bonnes Gens Colmar France</a></p>
       </div>
-      <p>Actuellement étudiant en BUT Réseaux et Télécommunications à l'Université de Haute-Alsace, je me forme aux compétences essentielles pour devenir un professionnel dans le domaine des réseaux, de l'administration des systèmes et des télécommunications. Ce programme me permet de développer des compétences techniques et humaines adaptées aux besoins du secteur.</p>
-      <p>Cette formation me prépare à travailler sur des projets d'envergure, de la gestion des infrastructures réseaux à la mise en place de solutions de télécommunication avancées.</p>
+    </header>
+	<section id="brevet">
+	  <h2>Présentation de ma première année en BUT</h2>
+	  <p>
+		Ma première année en BUT Réseaux et Télécommunications a été marquée par une découverte progressive mais intense du monde des réseaux, des systèmes informatiques et du développement. À travers des cours théoriques et surtout des projets pratiques appelés SAÉ (Situations d’Apprentissage et d’Évaluation), j’ai pu développer de nombreuses compétences techniques : configuration de réseaux avec des VLANs, routage, utilisation de logiciels de simulation (comme EVE-NG ou GNS3), programmation en Python, HTML/CSS, ou encore déploiement de services web et embarqués. Cette approche par projet m’a permis de comprendre l’importance du travail en équipe, de la documentation et de l’autonomie. Elle m’a également donné une vision plus claire des domaines dans lesquels je souhaite m’investir par la suite, notamment l’IoT, les systèmes embarqués et la cybersécurité. Cette année a constitué une base solide pour la suite de mon parcours dans les réseaux et télécoms.
+	  </p>
+ </section>
+
+
+   
+    <section id="brevet">
+      <h2>SAÉ 1.02 – S’initier aux réseaux informatiques</h2>
+      <p><strong>Résumé :</strong> Conception d’une infrastructure réseau simulée avec VLANs, DHCP, routage et EVE-NG.</p>
+      <h3>Administrer les réseaux et l’Internet</h3>
+      <ul>
+			<li><strong>AC11.03</strong> – Configurer les fonctions de base du réseau local <em>(Création de VLANs, configuration des interfaces IP sur les commutateurs et routeurs)</em></li>
+			<li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour la configuration et l'administration des réseaux <em>(Utilisation d’EVE-NG avec Cisco IOS)</em></li>
+			<li><strong>AC11.06</strong> – Installer un poste client, expliquer la procédure <em>(Ajout et paramétrage de postes sur le réseau virtuel)</em></li>
+	  </ul>
+      <h3>Connecter les entreprises et les usagers</h3>
+       <ul>
+			<li><strong>AC12.03</strong> – Déployer des supports de transmission <em>(Connexion des équipements dans la topologie EVE-NG)</em></li>
+	   </ul>
+      <div class="project-images">
+        <img src="images/sae102_1.png" alt="SAÉ 1.02 - Image 1">
+        <img src="images/sae102_2.png" alt="SAÉ 1.02 - Image 2">
+        <img src="images/sae102_3.png" alt="SAÉ 1.02 - Image 3">
+      </div>
+	  <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/S-initier-aux-reseaux-informatiques" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
     </section>
 
-<!-- SAÉ 1.02 -->
-<section id="brevet">
-	<h2>SAÉ 1.02 – S’initier aux réseaux informatiques</h2>
-	<p><strong>Résumé :</strong> Conception d’une infrastructure réseau simulée avec VLANs, DHCP, routage et EVE-NG.</p>
-	<h3>Administrer les réseaux et l’Internet</h3>
-	<ul>
-	<li><strong>AC11.03</strong> – Configurer les fonctions de base du réseau local</li>
-	<li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour la configuration et l'administration des réseaux</li>
-	<li><strong>AC11.06</strong> – Installer un poste client, expliquer la procédure</li>
-	</ul>
-	<h3>Connecter les entreprises et les usagers</h3>
-	<ul>
-	<li><strong>AC12.03</strong> – Déployer des supports de transmission</li>
-	</ul>
-</section>
+   
+    <section id="brevet">
+      <h2>SAÉ 1.04 – Se présenter sur Internet</h2>
+      <p><strong>Résumé :</strong> Création d’un mini-site personnel en HTML/CSS avec CV, expériences, liens et mise en page responsive.</p>
+      <h3>Créer des outils et applications informatiques</h3>
+       <ul>
+			<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme <em>(Développement HTML/CSS du site personnel)</em></li>
+			<li><strong>AC13.04</strong> – Connaître l’architecture et les technologies d’un site Web <em>(Utilisation des balises, responsive design, hébergement)</em></li>
+	    </ul>
+      <div class="project-images">
+        <img src="images/sae104_1.png" alt="SAÉ 1.04 - Image 1">
+        <img src="images/sae104_2.png" alt="SAÉ 1.04 - Image 2">
+        <img src="images/sae104_3.png" alt="SAÉ 1.04 - Image 3">
+      </div>
+	  <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/Se-presenter-sur-internet" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 1.04 -->
-<section id="brevet">
-<h2>SAÉ 1.04 – Se présenter sur Internet</h2>
-<p><strong>Résumé :</strong> Création d’un mini-site personnel en HTML/CSS avec CV, expériences, liens et mise en page responsive.</p>
-<h3>Créer des outils et applications informatiques</h3>
-<ul>
-<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme</li>
-<li><strong>AC13.04</strong> – Connaître l’architecture et les technologies d’un site Web</li>
-</ul>
-</section>
+   
+    <section id="brevet">
+      <h2>SAÉ 1.05 – Traiter des données</h2>
+      <p><strong>Résumé :</strong> Développement d’un outil Python avec interface graphique (PyQt5) pour détecter les fichiers volumineux. Export JSON et script PowerShell de suppression.</p>
+      <h3>Créer des outils et applications informatiques</h3>
+      <ul>
+		<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils <em>(Utilisation de Python, PyQt5, JSON, PowerShell)</em></li>
+		<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme <em>(Débogage et optimisation de code)</em></li>
+		<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné <em>(Implémentation d’un tri de fichiers lourds)</em></li>
+		<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés <em>(Utilisation de dictionnaires Python, JSON)</em></li>
+		<li><strong>AC13.06</strong> – S’intégrer dans un environnement de développement collaboratif <em>(Utilisation de GitHub en groupe)</em></li>
+      </ul>
+      <div class="project-images">
+        <img src="images/sae105_1.png" alt="SAÉ 1.05 - Image 1">
+        <img src="images/sae105_2.png" alt="SAÉ 1.05 - Image 2">
+        <img src="images/sae105_3.png" alt="SAÉ 1.05 - Image 3">
+      </div>
+	  <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/Traitement-de-donn-es" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 1.05 -->
-<section id="brevet">
-<h2>SAÉ 1.05 – Traiter des données</h2>
-<p><strong>Résumé :</strong> Développement d’un outil Python avec interface graphique (PyQt5) pour détecter les fichiers volumineux. Export JSON et script PowerShell de suppression.</p>
-<h3>Créer des outils et applications informatiques</h3>
-<ul>
-<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils</li>
-<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme</li>
-<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné</li>
-<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés</li>
-<li><strong>AC13.06</strong> – S’intégrer dans un environnement de développement collaboratif</li>
-</ul>
-</section>
+   
+    <section id="brevet">
+      <h2>SAÉ 1.03 – Réseaux sans fil (WiFi)</h2>
+      <p><strong>Résumé :</strong> Installation d’un réseau WiFi réel, simulation dans Packet Tracer, et heatmap de couverture.</p>
+      <h3>Connecter les entreprises et les usagers</h3>
+      <ul>
+		<li><strong>AC12.01</strong> – Mesurer, analyser et commenter les signaux <em>(Utilisation de logiciels comme Ekahau/NetSpot pour générer une carte de couverture WiFi)</em></li>
+		<li><strong>AC12.03</strong> – Déployer des supports de transmission <em>(Installation physique et paramétrage de points d'accès WiFi)</em></li>
+		<li><strong>AC12.04</strong> – Connecter les systèmes de ToIP <em>(Connexion de téléphones IP en WiFi et test de bande passante)</em></li>
+	  </ul>
+      <div class="project-images">
+        <img src="images/sae13_1.png" alt="SAÉ 13 - Image 1">
+        <img src="images/sae13_2.png" alt="SAÉ 13 - Image 2">
+        <img src="images/sae13_3.png" alt="SAÉ 13 - Image 3">
+      </div>
+	  <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/Transmission-WiFi" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 13 -->
-<section id="brevet">
-<h2>SAÉ 13 – Réseaux sans fil (WiFi)</h2>
-<p><strong>Résumé :</strong> Installation d’un réseau WiFi réel, simulation dans Packet Tracer, et heatmap de couverture.</p>
-<h3>Connecter les entreprises et les usagers</h3>
-<ul>
-<li><strong>AC12.01</strong> – Mesurer, analyser et commenter les signaux</li>
-<li><strong>AC12.03</strong> – Déployer des supports de transmission</li>
-<li><strong>AC12.04</strong> – Connecter les systèmes de ToIP</li>
-</ul>
-</section>
+    
+    <section id="brevet">
+      <h2>SAÉ 2.01 – Construire un réseau</h2>
+      <p><strong>Résumé :</strong> Création d’un réseau avec VLANs, inter-VLAN, DHCP, sécurité (ACL, port-security), services FTP & Web sur GNS3.</p>
+      <ul>
+		<li><strong>AC21.01</strong> – Configurer et dépanner le routage dynamique <em>(Routage OSPF configuré et vérifié dans GNS3)</em></li>
+		<li><strong>AC21.02</strong> – Configurer la QoS et les fonctions de base de sécurité <em>(Port-security, ACL sur routeurs, configuration VLANs sensibles)</em></li>
+		<li><strong>AC21.04</strong> – Déployer des services réseaux avancés <em>(Mise en place d’un serveur FTP, HTTP et DHCP)</em></li>
+	  </ul>
+  <h3>Connecter les entreprises et les usagers</h3>
+	  <ul>
+		<li><strong>AC22.01</strong> – Déployer et caractériser des systèmes de transmission complexes <em>(Réseau multi-sites simulé)</em></li>
+		<li><strong>AC22.04</strong> – Déployer des réseaux d’accès d’opérateurs <em>(Utilisation de liaisons inter-sites en /30 avec simulation opérateur)</em></li>
+	  </ul>
+		  <div class="project-images">
+        <img src="images/sae21_1.png" alt="SAÉ 2.1 - Image 1">
+        <img src="images/sae21_2.png" alt="SAÉ 2.1 - Image 2">
+        <img src="images/sae21_3.png" alt="SAÉ 2.1 - Image 3">
+      </div>
+	    <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/Mettre-en-place-une-solution-informatique" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 2.1 -->
-<section id="brevet">
-<h2>SAÉ 2.1 – Construire un réseau</h2>
-<p><strong>Résumé :</strong> Création d’un réseau avec VLANs, inter-VLAN, DHCP, sécurité (ACL, port-security), services FTP & Web.</p>
-<h3>Administrer les réseaux et l’Internet</h3>
-<ul>
-<li><strong>AC21.01</strong> – Configurer et dépanner le routage dynamique</li>
-<li><strong>AC21.02</strong> – Configurer la QoS et les fonctions de base de sécurité</li>
-<li><strong>AC21.04</strong> – Déployer des services réseaux avancés</li>
-</ul>
-<h3>Connecter les entreprises et les usagers</h3>
-<ul>
-<li><strong>AC22.01</strong> – Déployer et caractériser des systèmes de transmission complexes</li>
-<li><strong>AC22.04</strong> – Déployer des réseaux d’accès d’opérateurs</li>
-</ul>
-</section>
+    
+    <section id="brevet">
+      <h2>SAÉ 2.03 – Application web de gestion de notes</h2>
+      <p><strong>Résumé :</strong> Site Django CRUD pour gérer les notes, import CSV, export PDF, hébergement Nginx/Linux, collaboration GitHub.</p>
+      <h3>Créer des outils et applications informatiques</h3>
+      <ul>
+		<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils <em>(Linux, Python, Django, PostgreSQL)</em></li>
+		<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme <em>(Correction des vues, modèles, formulaires Django)</em></li>
+		<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné <em>(Logique d’import CSV, calculs de moyenne)</em></li>
+		<li><strong>AC13.04</strong> – Connaître l’architecture et les technologies d’un site Web <em>(MVC Django, Bootstrap, nginx)</em></li>
+		<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés <em>(Utilisation de modèles Django et base PostgreSQL)</em></li>
+		<li><strong>AC13.06</strong> – S’intégrer dans un environnement propice au développement collaboratif <em>(Projet versionné sur GitHub avec branches)</em></li>
+	  </ul>
+	  <h3>Administrer les réseaux et l’Internet</h3>
+	  <ul>
+		<li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour administrer les services réseaux <em>(Déploiement sur serveur Linux, configuration de Nginx)</em></li>
+	  </ul>
+	  <h3>Connecter les entreprises et les usagers</h3>
+	  <ul>
+    <li><strong>CE2.01</strong> – Communiquer avec les acteurs du projet, en français et en anglais <em>(Documentation GitHub, présentation finale du projet)</em></li>
+  </ul>
+      <div class="project-images">
+        <img src="images/sae3_1.png" alt="SAÉ 3 - Image 1">
+        <img src="images/sae3_2.png" alt="SAÉ 3 - Image 2">
+        <img src="images/sae3_3.png" alt="SAÉ 3 - Image 3">
+      </div>
+	    <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/ton-utilisateur/sae105" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 3 -->
-<section id="brevet">
-<h2>SAÉ 3 – Application web de gestion de notes</h2>
-<p><strong>Résumé :</strong> Site Django CRUD pour gérer les notes, import CSV, export PDF, hébergement Nginx/Linux, collaboration GitHub.</p>
-<h3>Créer des outils et applications informatiques</h3>
-<ul>
-<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils</li>
-<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme</li>
-<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné</li>
-<li><strong>AC13.04</strong> – Connaître l’architecture et les technologies d’un site Web</li>
-<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés</li>
-<li><strong>AC13.06</strong> – S’intégrer dans un environnement propice au développement et au travail collaboratif</li>
-</ul>
-<h3>Administrer les réseaux et l’Internet</h3>
-<ul>
-<li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour configurer et administrer les services réseaux</li>
-</ul>
-<h3>Connecter les entreprises et les usagers</h3>
-<ul>
-<li><strong>CE2.01</strong> – Communiquer avec les acteurs du projet, en français et en anglais</li>
-</ul>
-</section>
+    
+    <section id="brevet">
+      <h2>SAÉ 2.02 – Développement d’une Web Radio (ESP32)</h2>
+      <p><strong>Résumé :</strong> Développement d’une Web Radio connectée à base d’ESP32 et VS1053, contrôle via application mobile en MQTT, gestion WiFi embarquée.</p>
+      <h3>Créer des outils et applications informatiques</h3>
+      <ul>
+		<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils <em>(Arduino IDE, Flashage ESP32)</em></li>
+		<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme <em>(Code en C++ pour liaison WiFi/VS1053)</em></li>
+		<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné <em>(Gestion des commandes MQTT)</em></li>
+		<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés <em>(Utilisation du protocole MQTT et WiFiManager)</em></li>
+		<li><strong>AC13.06</strong> – S’intégrer dans un environnement propice au développement collaboratif <em>(Partage du projet via GitHub en groupe)</em></li>
+      </ul>
+	  <h3>Connecter les entreprises et les usagers</h3>
+	  <ul>
+		<li><strong>AC12.03</strong> – Déployer des supports de transmission <em>(Connexion sans fil via modules WiFi ESP32)</em></li>
+		<li><strong>AC12.04</strong> – Connecter les systèmes <em>(Connexion ESP ↔ mobile via MQTT)</em></li>
+	  </ul>
+      <h3>Administrer les réseaux et l’Internet</h3>
+      <ul>
+        <li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour administrer des services embarqués</li>
+      </ul>
+      <div class="project-images">
+        <img src="images/sae202_1.png" alt="SAÉ 2.02 - Image 1">
+        <img src="images/sae202_2.png" alt="SAÉ 2.02 - Image 2">
+        <img src="images/sae202_3.png" alt="SAÉ 2.02 - Image 3">
+      </div>
+	    <p><strong>🔗 Lien GitHub :</strong> <a href="https://github.com/St0206/Mesurer-et-caract-riser-un-signal-" class="github-link" target="_blank">Voir le projet sur GitHub</a></p>
+    </section>
 
-<!-- SAÉ 2.02 -->
-<section id="brevet">
-<h2>SAÉ 2.02 – Développement d’une Web Radio (ESP32)</h2>
-<p><strong>Résumé :</strong> Développement d’une Web Radio connectée à base d’ESP32 et VS1053, contrôle via application mobile en MQTT, gestion WiFi embarquée.</p>
-<h3>Créer des outils et applications informatiques</h3>
-<ul>
-<li><strong>AC13.01</strong> – Utiliser un système informatique et ses outils</li>
-<li><strong>AC13.02</strong> – Lire, exécuter, corriger et modifier un programme (Arduino / C++)</li>
-<li><strong>AC13.03</strong> – Traduire un algorithme, dans un langage et pour un environnement donné</li>
-<li><strong>AC13.05</strong> – Choisir les mécanismes de gestion de données adaptés (MQTT, WiFiManager)</li>
-<li><strong>AC13.06</strong> – S’intégrer dans un environnement propice au développement et au travail collaboratif</li>
-</ul>
-<h3>Connecter les entreprises et les usagers</h3>
-<ul>
-<li><strong>AC12.03</strong> – Déployer des supports de transmission (radio/WiFi)</li>
-<li><strong>AC12.04</strong> – Connecter les systèmes (ESP32 ↔ smartphone)</li>
-</ul>
-<h3>Administrer les réseaux et l’Internet</h3>
-<ul>
-<li><strong>AC11.04</strong> – Maîtriser les systèmes d’exploitation pour administrer des services embarqués</li>
-</ul>
-</section>
-
-<footer>
-<p><a href="index.html">Retour à l'accueil du portfolio</a></p>
-</footer>
-
-</body>
+    <footer>
+      <p><a href="index.html">Retour à l'accueil du portfolio</a></p>
+    </footer>
+  </body>
 </html>
